@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.019" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.014" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\谢子凡\AppData\Local\Temp\surefire10618935639706436098\surefirebooter2274742106812755005.jar C:\Users\谢子凡\AppData\Local\Temp\surefire10618935639706436098 2024-10-02T17-11-09_460-jvmRun1 surefire10495545554439644089tmp surefire_03575709148458625590tmp"/>
+    <property name="sun.java.command" value="C:\Users\谢子凡\AppData\Local\Temp\surefire4798665283788876598\surefirebooter11528437834976959088.jar C:\Users\谢子凡\AppData\Local\Temp\surefire4798665283788876598 2024-10-02T17-39-08_520-jvmRun1 surefire3060691783405524903tmp surefire_02527979419406164633tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\Java\tutorial4\target\test-classes;F:\Java\tutorial4\target\classes;C:\Users\谢子凡\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\谢子凡\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\谢子凡\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\谢子凡\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\谢子凡\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\谢子凡\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\谢子凡\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.1\junit-jupiter-5.11.1.jar;C:\Users\谢子凡\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.1\junit-jupiter-params-5.11.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\谢子凡\AppData\Local\Temp\surefire10618935639706436098\surefirebooter2274742106812755005.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\谢子凡\AppData\Local\Temp\surefire4798665283788876598\surefirebooter11528437834976959088.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -44,6 +44,7 @@
     <property name="localRepository" value="C:\Users\谢子凡\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\谢子凡\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.4"/>
     <property name="java.version" value="21.0.2"/>
     <property name="user.dir" value="F:\Java\tutorial4"/>
     <property name="os.arch" value="amd64"/>
@@ -59,9 +60,5 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="testAddition" classname="org.example.CalcTest" time="0.01"/>
-  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.007">
-    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
-	at org.example.CalcTest.testSubtraction(CalcTest.java:15)
-]]></failure>
-  </testcase>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0"/>
 </testsuite>
